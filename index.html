@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <!-- NAV BAR -->
     <nav class="nav">
         <div>
             <i class='bx bxl-github'></i>
@@ -24,9 +25,68 @@
             </ul>
         </div>
     </nav>
-    <section>
+    <!-- SLIDER -->
+    <section class="hero-slider">
+        <div class="slides" id="slides">
+            <div class="slide is-active">
+                <img src="assets/media/CRW_MY27_0020_V001.avif" alt="2027 Toyota Crown" />
+                <div class="slide-copy">
+                    <h2>2027 Toyota Crown</h2>
+                    <p>Power. Precision. Prestige.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="assets/media/GRC_MY26_0008_V001.avif" alt="2026 GR Corolla" />
+                <div class="slide-copy">
+                    <h2>2026 GR Corolla</h2>
+                    <p>Track spirit for every road.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="assets/media/SIE_MY26_0040_V001-D.avif" alt="2026 Toyota Sienna" />
+                <div class="slide-copy">
+                    <h2>2026 Toyota Sienna</h2>
+                    <p>Room for every kind of day.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="assets/media/TMM_FY27_0005_V001_nfl-hero-desktop_20260727v1.avif" alt="Toyota Game Day" />
+                <div class="slide-copy">
+                    <h2>Toyota Game Day</h2>
+                    <p>Drive the season forward.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="assets/media/TUN_MY27_0027_V001_D.avif" alt="2027 Toyota Tundra" />
+                <div class="slide-copy">
+                    <h2>2027 Toyota Tundra</h2>
+                    <p>Built strong. Ready for more.</p>
+                </div>
+            </div>
+        </div>
 
+        <button class="slider-arrow slider-arrow--prev" type="button">
+            <i class="bx bx-chevron-left"></i>
+        </button>
+        <button class="slider-arrow slider-arrow--next" type="button">
+            <i class="bx bx-chevron-right"></i>
+        </button>
+
+        <div class="hero-content">
+            <h1 id="hero-title">2027 Toyota Crown</h1>
+            <p id="hero-subtitle">Power. Precision. Prestige.</p>
+        </div>
+
+        <button class="hero-cta" type="button">Learn More</button>
+
+        <button class="control-button" id="toggle-play" type="button">
+            <i class="bx bx-pause"></i>
+        </button>
+
+        <div class="progress-list" id="progress-list"></div>
     </section>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
